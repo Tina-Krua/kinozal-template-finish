@@ -1,23 +1,23 @@
 .footer {
-    color: $color-gray;
-    background-color: $color-dark;
-    padding-top: $gap * 3;
-    ul {
-        padding: 0;
-        list-style: none;
+  color: $color-gray;
+  background-color: $color-dark;
+  padding-top: $gap * 3;
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  a {
+    color: darken($color-light, 55%);
+    &:hover {
+      color: $color-light;
     }
+  }
+  &-fifth {
+    margin-top: ($gap / 3 * 4);
+    margin-bottom: ($gap / 3 * 4);
+    text-align: center;
     a {
-        color: darken($color-light, 55%);
-        &:hover {
-            color: $color-light;
-        }
+      color: $color-light;
     }
-    &-fifth {
-        margin-top: ($gap / 3 * 4);
-        margin-bottom: ($gap / 3 * 4);
-        text-align: center;
-        a {
-            color: $color-light;
-        }
-    }
+  }
 }
